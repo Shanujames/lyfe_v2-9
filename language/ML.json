@@ -12,7 +12,7 @@
         },
         "_plugin": {
             "INSTALL_DESC": "Install external plugins.",
-            "NEED_URL": "```Please enter a URL!\nExample: .plugin url```",
+            "NEED_URL": "```Please enter a URL!\n Example: .plugin url```",
             "INVALID_URL": "```Please enter a valid url!```",
             "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
             "INSTALLED": "*✅ Plugin {} has been successfully installed!*",
@@ -20,8 +20,8 @@
             "INSTALLED_FROM_REMOTE": "✅*Plugins you installed externally:*\n",
             "NO_PLUGIN": "*You have not installed any external plugins!*",
             "REMOVE_DESC": "Removes the plugin.",
-            "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin utl```",
-            "NOT_FOUND_PLUGIN": "```Maybe you have not installed such a plugin.```",
+            "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin test```",
+            "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin.```",
             "DELETED": "*✅ Module successfully deleted! You must restart for the changes to take effect.*"
         },
         "admin": {
@@ -208,7 +208,7 @@
             "DISABLE": "Disabled.",
             "BANBYE_DESC": "Sets the banbye message. If you leave blank, it show's the banbye message.",
             "NOT_SET_BANBYE": "*You didn't set a banbye message!*\n*To set:* ```.banbye Your banbye Message```",
-            "BANBYE_ALREADY_SETTED": "*✅ Banbye message has been set!*\n*Message:* ```",
+            "BANBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
             "NEED_BANBYE_TEXT": "*You must write a message to set up the banbye message.*\n*Example:* ```.banbye Goodbye!```",
             "BANBYE_DELETED": "*✅ Banbye message has been deleted successfully!*",
             "BANBYE_SETTED": "*✅ Banbye message has been setted successfully!*",
@@ -416,7 +416,7 @@
             "delete": "*Voted deleted*",
             "new": "*Delete current vote, To set new.*",
             "error": "*Not found any vote.*",
-            "syntax": "*Syntax error*\nhttps://github.com/lyfe00011/whatsapp-bot/wiki/vote"
+            "syntax": "*Syntax error*"
         }
     }
 }
